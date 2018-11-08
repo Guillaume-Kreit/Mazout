@@ -1,0 +1,84 @@
+*{
+  margin:0;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color: white;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 2em;
+  padding-top: 1.5em;
+}
+
+#mazout{
+  height: 4em;
+}
+
+#express{
+  height: 4em;
+  padding-left: 2em;
+}
+
+i{
+  color: red;
+  padding-left: 4em;
+}
+
+#recherche{
+  margin-left: 59em;
+}
+
+input{
+
+}
+
+nav{
+  background-color: white;
+  height: 3em;
+  padding-left: 10em;
+  padding-right: 10em;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#debut{
+  padding-left: 0em;
+}
+
+#fin{
+  padding-right: 0em;
+}
+
+li{
+  display: inline;
+  padding: 1.7em;
+}
+
+section{
+  background-color: green;
+}
+
+#premier{
+  background-image: url(images/camion.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.4;
+  height: 15em;
+}
+
+footer{
+
+background-color: yellow;
+position:absolute;
+bottom:0;
+width:100%;
+}
+
+article{
+  background-color: pink;
+}
