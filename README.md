@@ -10,7 +10,7 @@ Réaliser un site respectant au détail près une maquette donnée
 
 ![Alt text](file:///home/user/Pictures/Maquette.png)
 
-## Auteur
+### Auteur
 
 * [**Guillaume Kreit**](https://github.com/Guillaume-Kreit)
 
