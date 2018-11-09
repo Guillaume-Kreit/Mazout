@@ -2,9 +2,11 @@
 
 ## Masout Alain Massuir (L'Express Carburant)
 
-### Site de commande pour la société Mazout Alain Massuir
+ Bienvenue sur le site de commande de la société Mazout Alain Massuir !
+ 
+### Objectif
 
-L'objectif est de réaliser un site respectant au détail près une maquette donnée
+Réaliser un site respectant au détail près une maquette donnée
 
 ![Alt text](file:///home/user/Pictures/Maquette.png)
 
@@ -12,15 +14,15 @@ L'objectif est de réaliser un site respectant au détail près une maquette don
 
 * [**Guillaume Kreit**](https://github.com/Guillaume-Kreit)
 
-## Durée de dévellopement
+### Durée de dévellopement
 
 Du mercredi 08/11/2018 au ...
 
-## Khaban
+### Khaban
 
 https://github.com/Guillaume-Kreit/Mazout/projects/1?add_cards_query=is%3Aopen
 
-## Outils 
+### Outils 
 
 * HTML
 * CSS
