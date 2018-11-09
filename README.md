@@ -4,4 +4,5 @@
 
 Site de commande pour la société Mazout Alain Massuir
 
-![alt text](file:///home/user/Pictures/Maquette.png)
+![Alt text](file:///home/user/Pictures/Maquette.png)
+
