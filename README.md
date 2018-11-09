@@ -7,3 +7,10 @@
 L'objectif est de réaliser un site respectant au détail près une maquette donnée
 
 ![Alt text](file:///home/user/Pictures/Maquette.png)
+
+## Outils 
+
+* HTML
+* CSS
+* JavaScript
+* Krita
