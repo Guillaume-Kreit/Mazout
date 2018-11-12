@@ -1,5 +1,6 @@
 *{
   margin:0;
+  padding: 0;
 }
 
 body{
@@ -8,54 +9,79 @@ body{
 
 header{
   background-color: white;
-  padding-left: 10em;
-  padding-right: 10em;
-  padding-bottom: 2em;
-  padding-top: 1.5em;
+  height: 7em;
+  padding-left: 8em;
+  padding-right: 8em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#mazout{
+.element{
+}
+
+.element:nth-child(1){
   height: 4em;
 }
 
-#express{
-  height: 4em;
-  padding-left: 2em;
+.element:nth-child(2){
+  height: 4.1em;
+  margin-left: 1em;
 }
 
-i{
+.element:nth-child(3){
   color: red;
-  padding-left: 4em;
+  margin-left: 4em;
 }
 
-#recherche{
-  margin-left: 59em;
+.element:nth-child(4){
+  color: #08146E;
+  font-size: 0.8em;
+  margin-left: 14.9em;
 }
 
-input{
+#postal{
+  height: 2em;
+  margin-left: 6em;
+}
 
+#bouton{
+  border: none;
+  height: 2.2em;
+  width: 2em;
+  background-color: #08146E;
+  color: white;
 }
 
 nav{
+  height: 2em;
   background-color: white;
-  height: 3em;
+  box-shadow: 1px 1px 5px #555;
   padding-left: 10em;
   padding-right: 10em;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
 
-#debut{
-  padding-left: 0em;
-}
-
-#fin{
-  padding-right: 0em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li{
   display: inline;
-  padding: 1.7em;
+}
+
+.active{
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #08146E;
+}
+
+a:hover{
+  color: red;
 }
 
 section{
@@ -71,14 +97,40 @@ section{
   height: 15em;
 }
 
-footer{
-
-background-color: yellow;
-position:absolute;
-bottom:0;
-width:100%;
+.element:nth-child(5){
+  height: 4em;
 }
 
-article{
-  background-color: pink;
+#deuxieme{
+  height: 15em;
+  background-color: white;
+}
+
+#troisieme{
+  background-color: white;
+  height: 8em;
+  box-shadow: 1px 1px 5px #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo3{
+  height: 5.5em;
+}
+
+footer{
+  background-color: #393c41;
+  height: 5em;
+  padding-left: 8em;
+  padding-right: 8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }

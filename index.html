@@ -3,41 +3,38 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <title>Mazout Alain Massuir</title>
     </head>
     <body>
-
         <header>
-
-            <img id="mazout" src="images/logo.jpg" alt="Mazout Alain Massuir">
-
-            <img id="express" src="images/logo2.png" alt="L'express carburants">
-
-            <i class="fas fa-phone"> 04 387 46 98</i>
-
-            <div class="">
-            <input id="recherche" type="text" name="" value="">
+            <img class="element" src="images/logo.jpg" alt="Mazout Alain Massuir">
+            <img class="element" src="images/logo2.png" alt="L'express carburants">
+            <div class="element">
+                <i class="fas fa-phone"> 04 387 46 98</i>
             </div>
-
+            <div class="element">
+                <i class="fas fa-gas-pump"> LIVRONS-NOUS DANS VOTRE COMMUNE ?</i><br>
+                <input id="postal" type="tel" placeholder="Code postal" >
+                <button id="bouton" type="submit" name="button"><i class="fas fa-search"></i></button>
+            </div>
         </header>
 
         <nav>
-            <li id="debut"><a href="#">Accueil</a></li>
+            <li><a class="active" href="#">Accueil</a></li>
             <li><a href="#">Produits</a></li>
             <li><a href="#">Livraisons</a></li>
             <li><a href="#">Paiement</a></li>
             <li><a href="#">Station service</a></li>
             <li><a href="#">Notre prix</a></li>
             <li><a href="#">Bon de réduction</a></li>
-            <li id="fin"><a href="#">Contact</a></li>
+            <li><a href="#">Contact</a></li>
         </nav>
 
         <section id="premier">
 
-            <p>section 1</p>
-
-            <img src="" alt="">
+            <img class="element" src="images/camion2.jpg" alt="camion essence">
 
             <aside class="">
             </aside>
@@ -50,7 +47,7 @@
 
         </section>
 
-        <section>
+        <section id="deuxieme">
 
             <p>section 2</p>
 
@@ -74,22 +71,18 @@
 
         </section>
 
-        <section>
+        <section id="troisieme">
 
-            <p>section 3</p>
-
-            <img src="" alt="">
+            <img id="logo3" src="images/logo3.jpg" alt="ecotherm futur">
 
         </section>
 
         <footer>
-
-            <p>footer</p>
-
-            
-            <address class="">
-            </address>
-
+            <p>ALAIN MASSUIR sprl</p>
+            <p>Rue de Fafchamps 56-4670 Blegny - 04 387 49 98 - info@mazoutmassuir.be<br>
+              Permanences téléphoniques : de 8h30 à 12h et 13h30 à 17h
+            </p>
+            <p>Site web par bugiweb</p>
         </footer>
 
     </body>
