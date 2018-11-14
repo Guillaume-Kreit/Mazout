@@ -17,9 +17,6 @@ header{
   align-items: center;
 }
 
-.element{
-}
-
 .element:nth-child(1){
   height: 4em;
 }
@@ -32,6 +29,14 @@ header{
 .element:nth-child(3){
   color: red;
   margin-left: 4em;
+}
+
+i.fa-phone{
+  color: red;
+}
+
+i.fa-gas-pump{
+  color: #08146E;
 }
 
 .element:nth-child(4){
@@ -59,7 +64,6 @@ nav{
   box-shadow: 1px 1px 5px #555;
   padding-left: 10em;
   padding-right: 10em;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -84,26 +88,105 @@ a:hover{
   color: red;
 }
 
-section{
-  background-color: green;
-}
+
 
 #premier{
+  display: flex;
+  flex-direction:column;
+
+  /* complicance*/
+
+
+  /*opacity: 0.4;*/
+}
+
+.filtre{
   background-image: url(images/camion.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   opacity: 0.4;
-  height: 15em;
+  z-index: 0;
+  position: absolute;
+  top: 9em;
+  height: 50em;
+  width: 100%;
 }
 
-.element:nth-child(5){
-  height: 4em;
+.contenu{
+  z-index: 1;
+  position: relative;
 }
+
+.block:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  padding-left: 7em;
+  padding-top: 0.1em;
+}
+
+.brick:nth-child(1){
+  width: 34em;
+  height: 46em;
+
+  /*complicance*/
+
+}
+
+.brick:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.module:nth-child(1){
+  background-color: red;
+  width: 30em;
+  height: 15em;
+  margin-top: 2em;
+  margin-left: 1em;
+  color: white;
+}
+
+.module:nth-child(2){
+  background-color: blue;
+  width: 30em;
+  height: 15em;
+  margin-top: 2em;
+  margin-left: 1em;
+  color: white;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block:nth-child(2){
+  width: 100%;
+  height: 10em;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 #deuxieme{
   height: 15em;
-  background-color: white;
+  background-color: yellow;
 }
 
 #troisieme{
@@ -128,9 +211,21 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
 }
 
-footer p{
+h1{
+  color: white;
+  font-size: 0.75em;
+}
+
+i{
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.info{
+  color: red;
 }
