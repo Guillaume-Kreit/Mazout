@@ -199,13 +199,15 @@ button{
 
 
 
-#deuxieme{
 
+
+#deuxieme{
   background-color: white;
   display: flex;
   flex-direction: column;
   padding-left: 7em;
   padding-right: 7em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .pain:nth-child(1){
@@ -216,8 +218,7 @@ button{
 }
 
 .cornichon:nth-child(1){
-  background-color: green;
-  width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: row;
 }
@@ -225,14 +226,27 @@ button{
 .steak:nth-child(1){
   color: blue;
   background-color: white;
+  padding-top: 1em;
+  padding-right: 2em;
+}
+
+.blue{
+  font-size: 2em;
 }
 
 .signet{
   border-color: red;
   width: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.red{
+  color: red;
 }
 
 .steak:nth-child(2){
+  background-color: red;
 }
 
 .cornichon:nth-child(2){
@@ -242,28 +256,39 @@ button{
 
   background-image: url(images/express.jpg);
   background-repeat: no-repeat;
-  background-size:
+  background-size;
+
 }
 
+
+
+
+
+
 .pain:nth-child(2){
-  background-color: purple;
+  background-color: white;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 1em;
+  margin-bottom: 2em;
 }
 
 .tomate:nth-child(1){
   background-color: white;
   width: 20em;
-  font-family: 'Roboto', sans-serif;
   color: #08146E;
 }
 
 #goutte{
   width: 320px;
   height: 215px;
-  border: 1px black solid;
+  box-shadow: 1px 1px 5px #555;
+}
+
+.fig{
+  margin-top: 1em;
 }
 
 .depuis{
@@ -272,23 +297,33 @@ button{
 
 .gris{
   border-color: grey;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.grey{
+  color: grey;
+  font-size: 0.9em;
+}
+
+.plus{
+  margin-top: 1em;
+  color: red;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .tomate:nth-child(2){
-  background-color: red;
+  background-color: white;
   width: 20em;
+  color: #08146E;
 }
 
 .tomate:nth-child(3){
-  background-color: red;
+  background-color: white;
   width: 20em;
+  color: #08146E;
 }
-
-
-
-
-
-
 
 
 #troisieme{
