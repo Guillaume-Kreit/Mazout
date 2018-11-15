@@ -2,10 +2,10 @@
   margin:0;
   padding: 0;
 }
-
 body{
   background-color: white;
 }
+
 
 header{
   background-color: white;
@@ -14,7 +14,7 @@ header{
   padding-right: 8em;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -24,11 +24,12 @@ header{
 
 .element:nth-child(2){
   height: 4.1em;
-
+  margin-left: 2em;
 }
 
 .element:nth-child(3){
   color: red;
+  margin-left: 5em;
 }
 
 i.fa-phone{
@@ -42,10 +43,12 @@ i.fa-gas-pump{
 .element:nth-child(4){
   color: #08146E;
   font-size: 0.8em;
+  margin-left: 11em;
 }
 
 #postal{
   height: 2em;
+  margin-left: 6em;
 }
 
 #bouton{
@@ -55,6 +58,7 @@ i.fa-gas-pump{
   background-color: #08146E;
   color: white;
 }
+
 
 nav{
   height: 2em;
@@ -132,7 +136,7 @@ a:hover{
   opacity: 0.9;
   width: 30em;
   height: 15em;
-  margin-top: 2em;
+  margin-top: 4em;
   margin-left: 1em;
   color: white;
   display: flex;
@@ -197,10 +201,6 @@ button{
 }
 
 
-
-
-
-
 #deuxieme{
   background-color: white;
   display: flex;
@@ -249,16 +249,60 @@ button{
   background-color: red;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cornichon:nth-child(2){
   background-color: pink;
   width: 100%;
-  height: 15em;
-
+  height: 23em;
   background-image: url(images/express.jpg);
   background-repeat: no-repeat;
-  background-size;
-
+  background-size:cover;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.cerise{
+  background-color: #CF0001;
+  opacity: 0.9;
+  color: white;
+  width: 3em;
+  height: 13em;
+  width: 13em;
+  padding: 0.5em;
+}
+
+.noyau{
+ font-size: 1.5em;
+}
+
+.pepin{
+  border-color: white;
+  width: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.grumaux{
+  margin-top: 4.5em;
+}
+
+
+
+
 
 
 
@@ -338,6 +382,7 @@ button{
 #logo3{
   height: 5.5em;
 }
+
 
 footer{
   background-color: #393c41;
